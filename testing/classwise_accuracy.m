@@ -14,10 +14,11 @@ seq = randperm(num_points);
 
 
 
-f1=feature(1:seq(split_point),:);
-l1=label(1:seq(split_point),:);
-f2=feature(seq(split_point+1:end),:);
-l2=label(seq(split_point+1:end),:);
+f1=feature(1:end,:);
+l1=label(1:end,:);
+
+f2=feature(1:end,:);
+l2=label(1:end,:);
 
 
 model=train(l2,sparse(f2),'-q -v 2');
