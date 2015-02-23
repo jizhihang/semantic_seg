@@ -1,0 +1,15 @@
+Audio Feature
+Color8 Feature
+Color27 Feature
+Color64 Feature
+Motion Feature
+Audio and Color8 Feature
+Audio and Color27 Feature
+Audio and Color64 Feature
+Motion and Color8 Feature
+Motion and Color27 Feature
+Motion and Color64 Feature
+Audio Motion and Color8 Feature
+Audio Motion and Color27 Feature
+Audio Motion and Color64 Feature
+Audio and Motion 

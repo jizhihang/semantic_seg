@@ -1,0 +1,6 @@
+clear all
+clc
+close all
+addpath(genpath('libsvm-3.17/libsvm-3.17/matlab'));
+load feature
+load label
