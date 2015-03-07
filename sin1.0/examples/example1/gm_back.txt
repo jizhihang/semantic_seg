@@ -1,0 +1,14 @@
+corner > top_zoomout
+corner > top_zoomout or top_zoomin or ground_zoomout or ground_zoomin
+
+foul > top_zoomout or top_zoomin or ground_zoomout or ground_zoomin
+penalty > top_zoomout and top_zoomin and ground_zoomin and goalpost
+penalty > top_zoomout or top_zoomin or ground_zoomin or goalpost
+
+top_zoomout 		detector_id 1
+top_zoomin 		detector_id 2
+ground_zoomout 		detector_id 3
+ground_zoomin 		detector_id 4
+crowd_zoomout 		detector_id 5
+crowd_zoomin 		detector_id 6
+goalpost 		detector_id 7

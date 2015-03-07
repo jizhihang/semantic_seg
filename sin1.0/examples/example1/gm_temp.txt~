@@ -1,0 +1,11 @@
+foul > ground_zoomin or ground_zoomout
+
+penalty > top_zoomout and top_zoomin
+
+top_zoomout duration_mean 30 duration_var 0 detector_id 1
+top_zoomin duration_mean 20 duration_var 0 detector_id 2
+ground_zoomout duration_mean 10 duration_var 0 detector_id 3
+ground_zoomin duration_mean 20 duration_var 0 detector_id 4
+crowd_zoomout duration_mean 0 duration_var 0 detector_id 5
+crowd_zoomin duration_mean 0 duration_var 0 detector_id 6
+goalpost duration_mean 0 duration_var 0 detector_id 7

@@ -1,0 +1,17 @@
+function [a b] = nx_maxdistribution_backward( c , weights)
+%NX_MAXDISTRIBUTION_BACKWARD reverse of nx_maxdistribution
+%   Given likelihood P(Z | c), compute P(Z | a) and P(Z | b)
+
+    assert(abs(weights(1) + weights(2) - 1) < 10e-10);
+    
+    n = length(c);
+    
+    
+    % simple impl
+    for v=1:n
+        
+        a(v) = weights(1) * c(v) + uniform();
+        b = weights(2) * c + uniform();
+    end
+end
+
