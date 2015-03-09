@@ -1,0 +1,12 @@
+{Out of memory. Type HELP MEMORY for your options.
+
+Error in sin_gen_duration_table (line 22)
+    duration_table  = zeros(T, T);
+
+Error in sin_compute_durationFactors (line 19)
+    durations{i} = sin_gen_duration_table(m, v, T);
+
+Error in testing (line 111)
+durations      = sin_compute_durationFactors(sin.original_grammar, T);
+} 
+

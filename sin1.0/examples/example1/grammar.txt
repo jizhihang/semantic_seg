@@ -1,6 +1,6 @@
-B > b1 and b2
 
 s > a1 or a2
+B > b1 and b2
 
 
 a1 duration_mean 10 duration_var 0  detector_id 1

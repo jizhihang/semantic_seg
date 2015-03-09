@@ -1,2 +1,4 @@
+corner > crowd_zoomin and goalpost 
+
 foul > ground_zoomin or ground_zoomout
 penalty > top_zoomout and top_zoomin

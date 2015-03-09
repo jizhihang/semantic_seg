@@ -1,4 +1,7 @@
-
+clc
+close all
+clear all
+addpath(genpath('../../sin'));
 % consuct network
 T   = 100;
 sin = sin_load_grammar_n_gen_network('grammar.txt', T);

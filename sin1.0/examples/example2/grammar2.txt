@@ -6,3 +6,4 @@ b duration_mean 100 duration_var 100 detector_id 2
 c duration_mean 100 duration_var 100 detector_id 3
 d duration_mean 100 duration_var 100 detector_id 4
 e duration_mean 100 duration_var 100 detector_id 5
+
